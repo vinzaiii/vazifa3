@@ -1,0 +1,1511 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #F8F8F8;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.left img{
+width: 100%;
+}
+
+.center{
+    display: flex;
+    gap: 40px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.p1{
+    color: #3685FB;
+}
+
+.p2{
+    color: #002248;
+}
+
+.right button{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3685FB;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+header{
+    background-color: #F8F8F8;
+}
+
+.headerbar{
+    width: 100%;
+    height: 800px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.left1 img{
+    width: 100%;
+}
+
+.p3{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #00B3A0;
+    padding-bottom: 15px;
+}
+
+.right1 h1{
+    font-family: 'Croissant One', cursive;
+    font-weight: 500;
+    font-size: 53px;
+    color: #002248;
+    padding-bottom: 35px;
+}
+
+.p4{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #697687;
+    padding-bottom: 40px;
+}
+
+.right1 button{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    width: 170px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3685FB;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;  
+}
+
+.cardlar{
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cardlarbar{
+    width: 840px;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card1{
+width: 210px;
+height: 144px;
+padding-top: 40px;
+box-shadow: 0px 40px 170px 0px #00224812;
+border-top-left-radius: 30px;
+border-bottom-left-radius: 30px;
+}
+
+.p5{
+    font-weight: 500;
+    font-size: 20px;
+    color: #002248;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    padding-bottom: 20px;
+}
+
+.p6{
+    font-weight: 400;
+    font-size: 16px;
+    color: #697687;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    padding-bottom: 20px;
+}
+
+.card2 img{
+    width: 100%;
+    height: 100px;
+}
+
+.card2{
+    background-color: #3685FB;
+    width: 210px;
+    height: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.textlar{
+    width: 100%;
+    height: max-content;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.p7{
+    font-weight: 500;
+    font-size: 16px;
+    color: #00B3A0;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    padding-bottom: 20px;
+}
+
+.textlar h1{
+font-weight: 500;
+font-size: 42px;
+color: #002248;
+font-family: 'Croissant One', cursive;
+padding-bottom: 30px;
+}
+
+.p8{
+    font-weight: 400;
+    font-size: 16px;
+    color: #697687;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    padding-bottom: 20px;
+}
+
+section{
+    width: 100%;
+    height: max-content;
+}
+
+.sub-section{
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.card5 img{
+    width: 100%;
+    height: 96px;
+    margin-top: 70px;
+}
+
+.card5{
+    border: 2px solid #F8F8F8;
+    align-items: center;
+    text-align: center;
+}
+
+.card5 h4{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 30px;
+    color: #002248;
+}
+
+.card5 p{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    padding-top: 25px;
+    padding-bottom: 70px;
+    color: #697687;
+}
+
+aside{
+    width: 100%;
+    height: max-content;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.p10{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #00B3A0;
+    padding-bottom: 15px;
+}
+
+.sub-aside h1{
+    font-family: 'Croissant One', cursive;
+    font-weight: 500;
+    font-size: 42px;
+    color: #002248;
+    padding-bottom: 20px;
+}
+
+.p11{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #697687; 
+}
+
+.cardlar{
+    width: 100%;
+    height: max-content;
+}
+
+.card6 img{
+    width: 100%;
+    }
+
+.sub-aside{
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+}
+
+.rasmlar{
+    width: 100%;
+    height: max-content;
+    background-color: #F8F8F8;
+}
+
+.rasm img{
+    width: 100%;
+}
+
+@media all and (max-width: 1024px) {
+  
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    nav{
+        width: 100%;
+        height: 100px;
+        background-color: #F8F8F8;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    }
+
+    .p1{
+        color: #3685FB;
+    }
+    
+    .p2{
+        color: #002248;
+    }
+
+    .right button{
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #3685FB;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+    }
+
+    header{
+        background-color: #F8F8F8;
+    }
+    
+    .headerbar{
+        width: 100%;
+        height: 800px;
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .left1 img{
+        width: 100%;
+    }
+    
+    .p3{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #00B3A0;
+        padding-bottom: 15px;
+    }
+    
+    .right1 h1{
+        font-family: 'Croissant One', cursive;
+        font-weight: 500;
+        font-size: 35px;
+        color: #002248;
+        padding-bottom: 10px;
+    }
+    
+    .p4{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #697687;
+        padding-bottom: 10px;
+    }
+
+    .right1 button{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        width: 140px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        background-color: #3685FB;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 14px;  
+    }
+
+    .cardlar{
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cardlarbar{
+        width: 840px;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .card1{
+    width: 210px;
+    height: 144px;
+    padding-top: 40px;
+    box-shadow: 0px 40px 170px 0px #00224812;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    }
+    
+    .p5{
+        font-weight: 500;
+        font-size: 18px;
+        color: #002248;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .p6{
+        font-weight: 400;
+        font-size: 14px;
+        color: #697687;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .card2{
+        background-color: #3685FB;
+        width: 210px;
+        height: 144px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .textlar{
+        width: 100%;
+        height: max-content;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .p7{
+        font-weight: 500;
+        font-size: 14px;
+        color: #00B3A0;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 15px;
+    }
+    
+    .textlar h1{
+    font-weight: 500;
+    font-size: 36px;
+    color: #002248;
+    font-family: 'Croissant One', cursive;
+    padding-bottom: 20px;
+    }
+    
+    .p8{
+        font-weight: 400;
+        font-size: 14px;
+        color: #697687;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 15px;
+    }
+
+    section{
+        width: 100%;
+        height: max-content;
+    }
+    
+    .sub-section{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 30px;
+        gap: 20px;
+        padding-bottom: 80px;
+    }
+    
+    .card5 img{
+        width: 100%;
+        height: 96px;
+        margin-top: 60px;
+    }
+    
+    .card5{
+        border: 2px solid #F8F8F8;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .card5 h4{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        padding-top: 25px;
+        color: #002248;
+    }
+    
+    .card5 p{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 13px; 
+        padding-top: 20px;
+        padding-bottom: 60px;
+        color: #697687;
+    }
+
+    .card5 p{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 16px; 
+        padding-top: 25px;
+        padding-bottom: 70px;
+        color: #697687;
+    }
+    
+    aside{
+        width: 100%;
+        height: max-content;
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    
+    .p10{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: #00B3A0;
+        padding-bottom: 10px;
+    }
+    
+    .sub-aside h1{
+        font-family: 'Croissant One', cursive;
+        font-weight: 500;
+        font-size: 36px;
+        color: #002248;
+        padding-bottom: 15px;
+    }
+    
+    .p11{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #697687; 
+    }
+    
+    .cardlar{
+        width: 100%;
+    }
+    
+    .card6 img{
+    width: 280px;
+    }
+
+    .sub-aside{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 100px;
+    }
+    
+    .rasmlar{
+        width: 100%;
+        height: max-content;
+        background-color: #F8F8F8;
+    }
+    
+    .rasm img{
+        width: 100%;
+        height: max-content;
+    }
+}
+
+
+@media all and (max-width: 820px) {
+  
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    nav{
+        width: 100%;
+        height: max-content;
+        background-color: #F8F8F8;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: max-content;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    }
+
+    .p1{
+        color: #3685FB;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    
+    .p2{
+        color: #002248;
+        font-weight: 500;
+        font-size: 15px;    
+    }
+
+.center{
+    padding-top: 15px;
+    display: grid;
+}
+
+    header{
+        background-color: #F8F8F8;
+    }
+    
+    .right button{
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: #3685FB;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .headerbar{
+        width: 100%;
+        height: 800px;
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .left1 img{
+        width: 100%;
+    }
+    
+    .p3{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: #00B3A0;
+        padding-bottom: 10px;
+    }
+    
+    .right1 h1{
+        font-family: 'Croissant One', cursive;
+        font-weight: 500;
+        font-size: 22px;
+        color: #002248;
+        padding-bottom: 10px;
+    }
+    
+    .p4{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #697687;
+        padding-bottom: 10px;
+    }
+
+    .right1 button{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        width: 100px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color: #3685FB;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 10px;  
+    }
+
+    .cardlar{
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cardlarbar{
+        width: 450px;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .card1{
+    width: 150px;
+    height: 110px;
+    padding-top: 40px;
+    box-shadow: 0px 40px 170px 0px #00224812;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    }
+    
+    .p5{
+        font-weight: 500;
+        font-size: 16px;
+        color: #002248;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .p6{
+        font-weight: 400;
+        font-size: 12px;
+        color: #697687;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .card2 img{
+        width: 60px;
+        height: 45px;
+    }
+
+    .card2{
+        background-color: #3685FB;
+        width: 150px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .textlar{
+        width: 100%;
+        height: max-content;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+    }
+    
+    .p7{
+        font-weight: 500;
+        font-size: 14px;
+        color: #00B3A0;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 15px;
+    }
+    
+    .textlar h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: #002248;
+    font-family: 'Croissant One', cursive;
+    padding-bottom: 20px;
+    }
+    
+    .p8{
+        font-weight: 400;
+        font-size: 12px;
+        color: #697687;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 15px;
+    }
+
+    section{
+        width: 100%;
+        height: max-content;
+    }
+    
+    .sub-section{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 30px;
+        gap: 20px;
+        padding-bottom: 80px;
+    }
+    
+    .card5 img{
+        width: 100%;
+        height: 70px;
+        margin-top: 30px;
+    }
+    
+    .card5{
+        border: 2px solid #F8F8F8;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .card5 h4{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 15px;
+        color: #002248;
+    }
+    
+    .card5 p{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 12px; 
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #697687;
+    }
+
+    .card5 p{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 12px; 
+        padding-top: 25px;
+        padding-bottom: 50px;
+        color: #697687;
+    }
+    
+    aside{
+        width: 100%;
+        height: max-content;
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 70px;
+    }
+    
+    .p10{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #00B3A0;
+        padding-bottom: 10px;
+    }
+    
+    .sub-aside h1{
+        font-family: 'Croissant One', cursive;
+        font-weight: 500;
+        font-size: 30px;
+        color: #002248;
+        padding-bottom: 15px;
+    }
+    
+    .p11{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #697687; 
+    }
+    
+    .cardlar{
+        width: 100%;
+    }
+    
+    .card6 img{
+    width: 240px;
+    }
+
+    .sub-aside{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 100px;
+    }
+    
+    .rasmlar{
+        width: 100%;
+        height: max-content;
+        background-color: #F8F8F8;
+    }
+    
+    .rasm img{
+        width: 100%;
+        height: max-content;
+    }
+}
+
+@media all and (max-width: 541px) {
+  
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    nav{
+        width: 100%;
+        height: max-content;
+        background-color: #F8F8F8;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: max-content;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    }
+
+    .p1{
+        color: #3685FB;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .p2{
+        color: #002248;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+.center{
+    padding-top: 15px;
+    display: grid;
+}
+
+    header{
+        background-color: #F8F8F8;
+    }
+    
+    .right button{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: #3685FB;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .headerbar{
+        width: 100%;
+        height: 800px;
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .left1 img{
+        width: 100%;
+    }
+    
+    .p3{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #00B3A0;
+        padding-bottom: 10px;
+    }
+    
+    .right1 h1{
+        font-family: 'Croissant One', cursive;
+        font-weight: 500;
+        font-size: 14px;
+        color: #002248;
+        padding-bottom: 10px;
+    }
+    
+    .p4{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: #697687;
+        padding-bottom: 10px;
+    }
+
+    .right1 button{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        background-color: #3685FB;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 10px;  
+    }
+
+    .cardlar{
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cardlarbar{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .card1{
+    width: 100px;
+    height: 50px;
+    padding-top: 10px;
+    box-shadow: 0px 40px 170px 0px #00224812;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    }
+    
+    .p5{
+        font-weight: 500;
+        font-size: 16px;
+        color: #002248;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 5px;
+    }
+    
+    .p6{
+        font-weight: 400;
+        font-size: 12px;
+        color: #697687;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 10px;
+    }
+    
+    .card2 img{
+        width: 60px;
+        height: 45px;
+    }
+
+    .card2{
+        background-color: #3685FB;
+        width: 100px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .textlar{
+        width: 100%;
+        height: max-content;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .p7{
+        font-weight: 500;
+        font-size: 10px;
+        color: #00B3A0;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 15px;
+    }
+    
+    .textlar h1{
+    font-weight: 500;
+    font-size: 24px;
+    color: #002248;
+    font-family: 'Croissant One', cursive;
+    padding-bottom: 20px;
+    }
+    
+    .p8{
+        font-weight: 400;
+        font-size: 10px;
+        color: #697687;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 15px;
+    }
+
+    section{
+        width: 100%;
+        height: max-content;
+    }
+    
+    .sub-section{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 30px;
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+    
+    .card5 img{
+        width: 100%;
+        height: 70px;
+        margin-top: 30px;
+    }
+    
+    .card5{
+        border: 2px solid #F8F8F8;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .card5 h4{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        padding-top: 15px;
+        color: #002248;
+    }
+    
+    .card5 p{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 10px; 
+        padding-top: 20px;
+        padding-bottom: 5px;
+        color: #697687;
+    }
+
+    
+    aside{
+        width: 100%;
+        height: max-content;
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+    
+    .p10{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #00B3A0;
+        padding-bottom: 10px;
+    }
+    
+    .sub-aside h1{
+        font-family: 'Croissant One', cursive;
+        font-weight: 500;
+        font-size: 24px;
+        color: #002248;
+        padding-bottom: 10px;
+    }
+    
+    .p11{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: #697687; 
+    }
+    
+    .cardlar{
+        width: 100%;
+    }
+    
+    .card6 img{
+    width: 150px;
+    }
+
+    .sub-aside{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 50px;
+    }
+    
+    .rasmlar{
+        width: 100%;
+        height: max-content;
+        background-color: #F8F8F8;
+    }
+    
+    .rasm img{
+        width: 100%;
+        height: max-content;
+    }
+}
+
+@media all and (max-width: 390px) {
+  
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    nav{
+        width: 100%;
+        height: max-content;
+        background-color: #F8F8F8;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: max-content;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    }
+
+    .p1{
+        color: #3685FB;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+    .p2{
+        color: #002248;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+.center{
+    padding-top: 15px;
+    display: grid;
+}
+
+    header{
+        background-color: #F8F8F8;
+    }
+    
+    .right button{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        width: 60px;
+        height: 20px;
+        border-radius: 6px;
+        background-color: #3685FB;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .headerbar{
+        width: 100%;
+        height: 300px;
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .left1 img{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .p3{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 7px;
+        color: #00B3A0;
+        padding-bottom: 5px;
+    }
+    
+    .right1 h1{
+        font-family: 'Croissant One', cursive;
+        font-weight: 500;
+        font-size: 9px;
+        color: #002248;
+        padding-bottom: 5px;
+    }
+    
+    .p4{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 7px;
+        color: #697687;
+        padding-bottom: 5px;
+    }
+
+    .right1 button{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        width: 60px;
+        height: 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: #3685FB;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 7px;  
+    }
+
+    .cardlar{
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cardlarbar{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .card1{
+    width: 70px;
+    height: 30px;
+    padding-top: 5px;
+    box-shadow: 0px 40px 170px 0px #00224812;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    }
+    
+    .p5{
+        font-weight: 500;
+        font-size: 8px;
+        color: #002248;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 5px;
+    }
+    
+    .p6{
+        font-weight: 400;
+        font-size: 6px;
+        color: #697687;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 5px;
+    }
+    
+    .card2 img{
+        width: 40px;
+        height: 25px;
+    }
+
+    .card2{
+        background-color: #3685FB;
+        width: 70px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .textlar{
+        width: 100%;
+        height: max-content;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .p7{
+        font-weight: 500;
+        font-size: 7px;
+        color: #00B3A0;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 5px;
+    }
+    
+    .textlar h1{
+    font-weight: 500;
+    font-size: 18px;
+    color: #002248;
+    font-family: 'Croissant One', cursive;
+    padding-bottom: 10px;
+    }
+    
+    .p8{
+        font-weight: 400;
+        font-size: 7px;
+        color: #697687;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding-bottom: 5px;
+    }
+
+    section{
+        width: 100%;
+        height: max-content;
+    }
+    
+    .sub-section{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 30px;
+        gap: 10px;
+        padding-bottom: 30px;
+    }
+    
+    .card5 img{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+    }
+    
+    .card5{
+        border: 2px solid #F8F8F8;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .card5 h4{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        padding-top: 5px;
+        color: #002248;
+    }
+    
+    .card5 p{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 7px; 
+        padding-top: 5px;
+        padding-bottom: 10px;
+        color: #697687;
+    }
+
+    
+    aside{
+        width: 100%;
+        height: max-content;
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    
+    .p10{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 500;
+        font-size: 7px;
+        color: #00B3A0;
+        padding-bottom: 5px;
+    }
+    
+    .sub-aside h1{
+        font-family: 'Croissant One', cursive;
+        font-weight: 500;
+        font-size: 18px;
+        color: #002248;
+        padding-bottom: 5px;
+    }
+    
+    .p11{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-weight: 400;
+        font-size: 7px;
+        color: #697687; 
+    }
+    
+    .cardlar{
+        width: 100%;
+    }
+    
+    .card6 img{
+    width: 85px;
+    }
+
+    .sub-aside{
+        width: 100%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 50px;
+    }
+    
+    .rasmlar{
+        width: 100%;
+        height: max-content; 
+        background-color: #F8F8F8;
+    }
+    
+    .rasm img{
+        width: 100%;
+        height: max-content;
+    }
+}
+
+
+
